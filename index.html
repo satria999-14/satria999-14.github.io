@@ -1,23 +1,45 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Website Satria</title>
-  <style>
-    body {
-      font-family: Arial;
-      text-align: center;
-      margin-top: 60px;
-      background: #f0f4f8;
-      color: #2c3e50;
-    }
-    h1 { color: #2980b9; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Satria</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body {
+            background: linear-gradient(135deg, #e0f7fa, #f3e5f5);
+            color: #2c3e50;
+            padding: 2rem;
+            text-align: center;
+        }
+        h1 { color: #2980b9; margin-bottom: 2.5rem; }
+        .menu {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .menu a {
+            padding: 1rem;
+            background: #2980b9;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            transition: background 0.2s;
+        }
+        .menu a:hover { background: #1c6691; }
+    </style>
 </head>
 <body>
-  <h1>Halo! Ini Website Satria</h1>
-  <p>✅ Bisa dibuka siapa saja</p>
-  <p>🔒 Hanya kamu yang bisa mengedit</p>
+    <h1>📌 Halaman Utama</h1>
+    <div class="menu">
+        <a href="puisi.html">📖 Baca Puisi</a>
+        <a href="daftar-lagu.html">🎵 Daftar Lagu</a>
+        <a href="daftar-halaman.html">📄 Halaman HTML Buatan Saya</a>
+    </div>
+    <br><br>
+    <p style="font-size: 0.9rem; color: #666;">✅ Bisa dibuka siapa saja<br>🔒 Hanya kamu yang bisa menambah konten</p>
 </body>
 </html>
